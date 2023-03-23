@@ -1,0 +1,27 @@
+{
+  "name": "Rickfy",
+  "version": "1.0.0",
+  "description": "Never Gonna Give You Up",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "action": {
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["background.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["rick.mp4"],
+      "matches": ["http://*/*", "https://*/*"]
+    }
+  ],
+  "host_permissions": ["<all_urls>"],
+  "manifest_version": 3
+}
