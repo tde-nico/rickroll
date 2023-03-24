@@ -3,7 +3,7 @@ const VIDEO_LENGTH_IN_MS = 8000;
 const MAX_Z_INDEX = 2147483647;
 
 //const SHOULD_PLAY = Math.floor(Math.random() * 100) <= 1;
-const SHOULD_PLAY = 0;
+const SHOULD_PLAY = ;
 
 const VIDEO_NAME = "rick.mp4"; 
 
